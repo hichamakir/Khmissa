@@ -566,7 +566,9 @@ cursor: pointer;
     left:0%;
     bottom: -120px;
 }
-
+#container-savoir{
+    margin:150px auto;
+}
 
 
 @media screen and (max-width: 1024px) {
