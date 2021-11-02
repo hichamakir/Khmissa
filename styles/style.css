@@ -40,7 +40,7 @@ margin-top: 120px;
     display: grid;
   grid-template-columns: repeat(8,1fr);
     grid-template-areas:
-      "logo  . search search   icons icons  . price ";
+      "logo   search search   icons icons . . price ";
 }
 #logo-container{
     grid-area:logo;
@@ -48,9 +48,12 @@ margin-top: 120px;
 #container-search{
     position: relative;
     grid-area:search;
+    margin: 4px 0;
 }
 #container-icon{
     grid-area:icons;
+    margin: 2px 0;
+
 }
 .icon-nav{
     height: 40px;
@@ -61,7 +64,7 @@ margin-top: 120px;
     border-radius: 20px;
     height: 30px;
     width: 120px;
-    margin:4px 0;
+    margin:6px 0;
     text-align: center;
 position: relative;
 box-shadow: #2c760a 0 0 20px -1px;
