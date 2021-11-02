@@ -1322,15 +1322,16 @@ height: 450px;
 }
 #backslider{
 position: absolute;
-left:56%;
+left:55%;
 top:10%;
 width: 350px;
 height: 440px;
 display: flex;
 }
 #backslider img{
-    width: 80%;
-    height: 100%;
+    margin:25% 20px;
+    width: 300px;
+    height: 250px;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #container-cata-digitale{
@@ -1353,17 +1354,17 @@ height: 100vh;
 }
 #info-digital{
     position: absolute;
-    width: 500px;
+    width: 598px;
     height: 150px;
-    left:80px;
-    top:150px;
+    left: 45px;
+    top: 178px;
 }
 #person-digital{
     position: absolute;
-    width: 500px;
-    height: 200px;
-top:-20px;
-left:100px;
+    width: 576px;
+    height: 237px;
+    top: -17px;
+        left: 60px;
 }
 
 
