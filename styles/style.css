@@ -1767,7 +1767,7 @@ top:10px;
     }
     
     #search-pop-up{
-        display: block;
+        display: none;
         position: absolute;
         right:0;
         left:0;
@@ -1791,7 +1791,7 @@ top:10px;
     #search-icon-1{
         position: absolute;
         top:0;
-        right:-8%;
+        left:100%;
         width: 30px;
         height: 30px;
     }
