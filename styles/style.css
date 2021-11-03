@@ -1834,7 +1834,7 @@ top:10px;
         text-align: center;
         align-items: center;
         justify-content: space-around;
-        margin:10px auto  100px;
+        margin:10px auto  10%;
     }
     
     .box-cat{
@@ -1971,7 +1971,7 @@ top:10px;
         #container-box-catalog{
         display: flex;
         flex-direction: column;
-        margin:50px auto;
+        margin:0px auto;
         padding: 20px;
         width: 80%;
         }
