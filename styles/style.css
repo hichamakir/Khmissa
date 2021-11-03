@@ -1753,23 +1753,76 @@ width: 100vw;
 border-radius: 40px;
 
 }
-#bleu-nav{
-    background-color: rgb(2 126 193);
 
+
+
+
+
+#welcome-head{
+    margin:-10px auto 40px;
+    background-color: #56ab2f;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top:#2c760a solid 2px;
+    border-bottom:#2c760a solid 2px;
+    width: 100%;
+}
+#welcome-head img{
+margin:0 20px;
+width: 40px;
+height: 60px;
+}
+#welcome-head h1{
+    color:white;
 }
 
-#move-nav{
-    background-color: rgba(141, 0, 148, 0.966);
+
+#conatiner-khmissa-cat{
+    width: 50vw;
+    display: flex;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+    align-items: center;
+    margin:10px auto  100px;
 }
 
-#gre-nav{
-    background-color: rgb(37, 189, 7);
+.box-cat{  
+    width: calc(100% - 100px);    /*  added, full width - margin  */
+    flex-shrink: 0;               /*  added, so it won't shrink  */
+    margin: 20px 50px;                 /*  added, instead of padding on parent  */
+    
+    display: flex;                /*  added  */
+    align-items: center;          /*  added  */
+    justify-content: center;      /*  added  */
+    
+    animation: slide-it 10s infinite;
 
 }
-
-#green-nav{
-    background-color: rgb(21, 128, 7);
-
-
+#box-reclame{
+    background-color: #1478e2;
+border: solid 2px #0a53a0 ;
 }
+#box-market-bg{
+background-image: url(../pictures/khmissa.png);
+background-size: auto 100%;
+background-repeat: no-repeat;
+background-position: left top;
+width:250px;
+height:250px;
+position: absolute;
+top:-20px;
+left:-40px;
+}
+#box-pro{
+    background-color: #b54486;
+    border: solid 2px #831d6f ;
+}
+
+
+
 }
