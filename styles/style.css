@@ -12,6 +12,8 @@
 body{
     background-image: url(../pictures/background.png);
     overflow-x: hidden;
+    box-sizing: content-box;
+    width: 100%;
 }
 header{
     text-align: center;
