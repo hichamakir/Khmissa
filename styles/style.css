@@ -1884,7 +1884,7 @@ left:-20px;
     position: relative;
     width: 100%;
     height:75vh;
-    margin:50px auto;
+    margin:10% auto 120%;
     }
     #backimg-cata{
   display: none;
@@ -1932,7 +1932,7 @@ left:-20px;
         width: 100%;
         height: 110px;
         background-image: none;
-        bottom:20px;
+        bottom:0px;
         z-index: 1111;
     
     }
@@ -1953,7 +1953,7 @@ left:-20px;
     }
     .box-catalog{
         width:  220px;
-        height: 150px;
+        height: 200px;
         margin:10px auto;
         border-radius: 10px;
         position: relative;
@@ -1963,7 +1963,7 @@ left:-20px;
         height: 100px;
         border-radius: 50%;
         left:25%;
-        top:-25%;
+        top:-15%;
         border:solid 5px #0e6fd8;
         background-color: #ffffff;
         position: absolute;
@@ -1973,13 +1973,13 @@ left:-20px;
     .info-cataloge{
         color:white;
         margin:80px auto 0px;
-        font-size: 0.8vw;
+        font-size: 10px;
         padding: 5px;
         text-align: center;
         width: 80%;
     }
     .info-cataloge h3{
-        font-size: 1.2vw;
+        font-size: 16px;
         margin:0 0 5px;
     }
     container-catalog #bottom-box-home{
