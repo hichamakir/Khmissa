@@ -12,6 +12,12 @@
 </head>
 
 <body>
+    <div id="search-pop-up">  
+        <div style="position:relative">  
+        <input type="text" id="search-box-1" name="search-box">
+            <img id="search-icon-1" src="pictures/searchicon.png">
+        </div>
+        </div>
     <header>
         <div id="container-green">
             <!---->
@@ -20,6 +26,7 @@
             <div id="logo-container">
              <a href="index.html">   <img id="logo-icon" src="pictures/logo.png"></a>
             </div>
+            <img id="search-icon-2" src="pictures/searchicon.png">
             <div id="container-search">
                 <input type="text" id="search-box" name="search-box">
                 <img id="search-icon" src="pictures/searchicon.png">
@@ -380,6 +387,16 @@
     var btniconmenu=document.getElementById("menu-icon");
     var menu=document.getElementById("menu");
     var icons= document.getElementById("container-icon");
+    var btnsearch=document.getElementById("search-icon-2");
+    var searchpop=document.getElementById("search-pop-up");
+    btnsearch.addEventListener("click",function(){
+        if (searchpop.style.display === "none") {
+            searchpop.style.display = "block";
+            
+  } else {
+    searchpop.style.display = "none";
+  }    })
+
     btniconmenu.addEventListener("click",function(){
         if (menu.style.display === "none" ||   icons.style.display === "none") {
             menu.style.display = "block";
