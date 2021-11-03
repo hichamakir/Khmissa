@@ -15,6 +15,8 @@
     <header>
         <div id="container-green">
             <!---->
+            <img id="menu-icon" src="pictures/Asset 2.svg">
+
             <div id="logo-container">
                 <img id="logo-icon" src="pictures/logo.png">
             </div>
@@ -374,7 +376,20 @@
         </div>-->
     </main>
 
+<script>
+    var btniconmenu=document.getElementById("menu-icon");
+    var menu=document.getElementById("menu");
+    var icons= document.getElementById("container-icon");
+    btniconmenu.addEventListener("click",function(){
+        if (menu.style.display === "none" ||   icons.style.display === "none") {
+            menu.style.display = "block";
+            icons.style.display = "block"
+  } else {
+    menu.style.display = "none";
+    icons.style.display = "none"
 
+  }    })
+</script>
 </body>
 
 </html>
