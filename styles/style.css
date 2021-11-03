@@ -1887,64 +1887,15 @@ left:-20px;
 
 
 #container-bottom-home{
-height: 20px;
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center;
-border-top: #2c760a solid 10px;
-padding:30px 0 0 0 ;
-position: relative;
-margin:150px 0 0 0;
+display: none;
 }
-
-#container-bottom-home img{
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    top:-100px;
-}
-#container-bottom-home p{
-color:#12a712;
-font-size: 1.4px;
-}
-#container-bottom-home #handleft{
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    left: 8%;
-}
-#container-bottom-home #handright{
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    right: 8%;
-    
-}
-#bottom-box-home{
-    width:90%;
-    height: 40px;
-    background-color: #3b9746;
-    margin:20px auto 0;   
-    border-radius: 20px 20px 0 0 ;
-    text-align: center;
-    position: relative;
-}
-#bottom-box-home span{
-    width:80px;
-    height: 10px;
-    background-color: #e9e9e9;
-    position: absolute;
-    top:10px;
-    border-radius: 20px;
-    }
 
     #footer-container{
         margin:60px auto 0;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         text-align: center;
-        grid-gap: 20px;
+        grid-gap: 30px 0;
         background-color:#56ab2f;
         background-image:  linear-gradient(to right, #a8e063, #56ab2f);
         width: 100vw;
@@ -1952,8 +1903,9 @@ font-size: 1.4px;
         box-sizing: border-box;
         color:white;
         border-radius:  0 0 ;
-        padding: 20px 0 100px;
+        padding: 20px 0 120px;
         position: relative;
+        overflow: hidden;
     }
     #handleft-bottom{
         display: none;
@@ -1962,5 +1914,11 @@ font-size: 1.4px;
     
         position: absolute;
         top: 90%;
+        left:20px;
+    }
+    #footer-container #cart{
+        position: absolute;
+        top: 90%;
+        right:10px;
     }
 }
