@@ -196,7 +196,7 @@ height: 60px;
 
 .box-cat{
 width:20vw;
-max-width: 250px;
+max-width: 300px;
 height:40vh;
 background-color: #59b359;
 border-radius: 10px;
@@ -494,6 +494,9 @@ z-index: 11111;
 #container-offre{
     position: relative;
 margin:50px auto;
+width: 100%;
+overflow: hidden;
+box-sizing: border-box;
 }
 #container-slider-offre{
     background-color: rgb(89, 179, 89,0.5);
@@ -1339,6 +1342,9 @@ display: flex;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #container-cata-digitale{
+    width: 100%;
+overflow: hidden;
+box-sizing: border-box;
 position: relative;
 margin:150px auto 0;
 width: 100%;
@@ -1372,6 +1378,9 @@ height: 100vh;
 }
 
 #container-box-avis{
+    width: 100%;
+overflow: hidden;
+box-sizing: border-box;
     width: 80%;
     height: 40vh;
     margin:-40px auto;
