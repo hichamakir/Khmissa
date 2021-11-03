@@ -1762,7 +1762,6 @@ border-radius: 40px;
     margin:-10px auto 40px;
     background-color: #56ab2f;
     position: relative;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1778,6 +1777,8 @@ height: 60px;
 }
 #welcome-head h1{
     color:white;
+    font-size:25px;
+
 }
 
 
@@ -1849,6 +1850,14 @@ top:-20px;
 left:-20px;
 
         }
+.khmissamarket-cat:first-child{
+    top:76%;
+    left:10%;
+        }
+        .khmissamarket-cat:last-child{
+            top:76%;
+            left:10%;
+                }
 .khmissamarket-cat{
     cursor: pointer;
     width:40%;
