@@ -1760,14 +1760,16 @@ border-radius: 40px;
 
 #welcome-head{
     margin:-10px auto 40px;
-    background-color: #56ab2f;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-top:#2c760a solid 2px;
-    border-bottom:#2c760a solid 2px;
+    border-top:none;
+    border-bottom:none;
     width: 100%;
 }
 #welcome-head img{
@@ -1776,7 +1778,7 @@ width: 40px;
 height: 60px;
 }
 #welcome-head h1{
-    color:white;
+    color:#2c760a;
     font-size:25px;
 
 }
