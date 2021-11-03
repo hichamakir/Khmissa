@@ -196,6 +196,7 @@ height: 60px;
 
 .box-cat{
 width:20vw;
+max-width: 250px;
 height:40vh;
 background-color: #59b359;
 border-radius: 10px;
@@ -1796,7 +1797,7 @@ height: 60px;
 .box-cat{
 display: flex;
 width:100%;
-max-width: 300px;
+max-width: 250px;
 position: relative;
 min-width: 150px;
 height:40vh;
