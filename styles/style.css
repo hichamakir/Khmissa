@@ -1636,6 +1636,8 @@ header{
 }
 main
 {
+    width: 100vw;
+    box-sizing: border-box;
 margin-top: 120px;
 }
 #container-green{
@@ -1937,4 +1939,28 @@ font-size: 1.4px;
     border-radius: 20px;
     }
 
+    #footer-container{
+        margin:60px auto 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        grid-gap: 20px;
+        background-color:#56ab2f;
+        background-image:  linear-gradient(to right, #a8e063, #56ab2f);
+        width: 100vw;
+        height: 100%;
+        box-sizing: border-box;
+        color:white;
+        border-radius:  0 0 ;
+        padding: 20px 0 100px;
+        position: relative;
+    }
+    #handleft-bottom{
+        display: none;
+    }
+    #footer-container #playstore{
+    
+        position: absolute;
+        top: 90%;
+    }
 }
