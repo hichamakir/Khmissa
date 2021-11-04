@@ -21,9 +21,11 @@ header{
     z-index: 11111111;
     
 }
+
 main
 {
 margin-top: 120px;
+
 }
 #container-green{
     border-radius: 0 0 20px 20px;
@@ -1784,7 +1786,7 @@ top:5px;
    
     
     #welcome-head{
-        margin:15% auto;
+        margin:200px auto 0;
         background-color: transparent;
         background-image: none;
         box-shadow: none;
