@@ -1353,7 +1353,7 @@ height: 100vh;
 #container-box-avis{
     width: 80%;
     height: 40vh;
-    margin:-40px auto;
+    margin:40px auto;
     position: relative;
     background-color: rgb(207, 207, 207,0.5);
     border: #04641c solid 2px;
@@ -2222,4 +2222,77 @@ height: 450px;
             margin: auto;
 
     }
+
+    #container-avis{
+        position: relative;
+        margin:500px auto 0;
+    
+    }
+    #container-avis #welcome-head{
+    margin:0 auto;
+    }
+#container-box-avis{
+    width: 80%;
+    height: fit-content;
+    margin:50px auto 50px;
+    position: relative;
+    background-color: rgb(207, 207, 207,0.5);
+    border: #04641c solid 2px;
+color:green;
+border-radius: 20px;
+padding: 25px;
+text-align: center;
+}
+#container-avis #welcome-head{
+    z-index: 111111;
+
+}
+#container-rate{
+display: block;
+margin: auto;
+}
+#container-rate p{
+    margin: 15px auto;
+    font-size: 14px;
+}
+#girl-side{
+ display: none;
+}
+
+#rate-1{
+    float: center;
+    height: 30px;
+    margin:0px auto;
+    padding: 5px 15px;
+    background-color: #058a27;
+    border-radius: 20px;
+}
+
+#avis-box{
+    margin:10px auto;
+    width:100%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    color:#058a27;
+outline: none;
+border:solid #058a27 2px;
+resize: none;
+}
+#btn-submit{
+    position: absolute;
+    bottom: 50px;
+    left:60%;
+    color:white;
+    outline: none;
+    border:none;
+    background-color:#a8e063;
+    background-color:  linear-gradient(to right, #a8e063, #56ab2f);
+    cursor: pointer;
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+
+
         }
