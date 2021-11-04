@@ -1504,7 +1504,7 @@ font-size: 14px;
 #footer-container #playstore{
     
     position: absolute;
-    bottom: 2px;
+    bottom: 10px;
 
 }
 
@@ -2046,7 +2046,7 @@ top:8px;
             height: 40px;
         }
         #footer-container #playstore{
-            margin:20px auto;
+            margin:10px auto;
             display: grid;
             grid-template-columns: 1fr ;
             position: absolute;
