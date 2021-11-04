@@ -92,8 +92,8 @@ left:50px;
     border-radius:20px;
     outline: none;
     width:95%;
-    height:30px;
-    margin:px;
+    height:35px;
+    
     cursor:text;
     padding: 0 0 0 10px;
     color:green;
@@ -101,8 +101,8 @@ left:50px;
 }
 #search-icon{
 position: absolute;
-top:1.2px;
-right:10px;
+top:5px;
+right:15px;
 cursor: pointer;
 grid-area: searchicon;
 }
@@ -1325,6 +1325,22 @@ display: flex;
     width: 300px;
     height: 250px;
 }
+.carousel .carousel-control-prev-icon {
+    /* change fill="currentColor" to %23fff to make it white  */
+      background-image: url(../pictures/last-arrow.png);
+    }
+    
+    .carousel .carousel-control-next-icon {
+      /* change fill="currentColor" to %23fff to make it white  */
+        background-image: url(../pictures/right-arrow.png);
+    }
+    
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        /* Use to adjust size of icons */
+        width: 80px;
+        height: 80px;
+    }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #container-cata-digitale{
 position: relative;
@@ -1628,7 +1644,7 @@ top:5px;
         margin: 2px 0;
         position: absolute;
         top:80%;
-        left:10vw;
+        left:2vw;
         display: none;
     }
     #search-icon-2{
@@ -1656,8 +1672,11 @@ top:5px;
     }
     #menu-icon{
         display: block;
-        margin-right: auto;
+        margin: auto 3px;
         cursor: pointer;
+        width: 35px;
+        height:35px;
+
     }
     
     #search-box{
@@ -1684,8 +1703,8 @@ top:5px;
         border: 1px solid #56ab2f;
         background-color: rgb(255, 255, 255,0.8);
         box-shadow: #408c1d 0 10px 20px -1px;
-        width: 40vw;
-        min-width: 300px;
+        width: 20vw;
+        min-width: 250px;
         height: fit-content;
         margin: 0;
         padding: 10px;
