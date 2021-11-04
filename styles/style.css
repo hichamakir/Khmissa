@@ -1804,9 +1804,9 @@ top:5px;
     width: 40px;
     height: 60px;
     }
-    #welcome-head h1{
+   #welcome-head h1{
         color:#2c760a;
-        font-size:25px;
+        font-size:1.2em;
     
     }
     #carouselExampleControls{
@@ -2202,9 +2202,9 @@ height: 450px;
         border-radius: 20px;
         width: fit-content;
         color:white;
-        padding:15px 80px;
+        padding:10px;
         margin: auto;
-        font-size: 30px;
+        font-size: 18px;
         text-align: center;
     }
     #info-digital{
