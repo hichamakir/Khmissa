@@ -1504,7 +1504,9 @@ font-size: 14px;
 #footer-container #playstore{
     
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
 }
 
 #container-bottom{
@@ -1587,12 +1589,12 @@ display: none;
 }
 #search-icon-2{
     display: none;
-width:35px;
-height:35px;
+    width:30px;
+    height: 30px;
 cursor: pointer;
 position: absolute;
 right: 15%;
-top:5px;
+top:8px;
 }
    
 
@@ -2153,7 +2155,7 @@ top:5px;
 
 #container-cata-digitale{
     position: relative;
-    margin:0 auto;
+    margin:0 auto 0;
     width: 100%;
     height: 100vh;
     display: grid;
@@ -2163,7 +2165,9 @@ top:5px;
     justify-content: center;
     align-content: center;
     }
-    
+    #container-cata-digitale #welcome-head{
+        margin:0 auto 0;
+        }
     
 .container {
     position: relative;
@@ -2184,7 +2188,7 @@ height: 450px;
     height: 440px;
     padding: 20PX;
     display: block;
-    margin:10px auto 20px;
+    margin:-150px auto 20px;
     }
     #backslider img{
         
@@ -2206,14 +2210,14 @@ height: 450px;
         position: relative;
         width: 80%;
         height: 150px;
-      
+        display: none;
         text-align: center;
         margin: auto;
     }
     #person-digital{
         width: 80%;
         height: 237px;
-
+        display: none;
             margin: auto;
 
     }
@@ -2239,7 +2243,7 @@ text-align: center;
 }
 #container-avis #welcome-head{
     z-index: 111111;
-    margin:200px auto 0;
+    margin:-10px auto 0;
 
 }
 #container-rate{
@@ -2255,7 +2259,7 @@ margin: auto;
 }
 #container-avis{
     position: relative;
-    margin:550px auto 0;
+    margin:150px auto 0;
 
 }
 #rate-1{
