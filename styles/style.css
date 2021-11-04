@@ -1360,8 +1360,7 @@ margin:0 auto;
 }
 
 #container-box-avis img{
-    width: 40%;
-    height: 80%;
+    height: 100%;
     position: absolute;
     bottom: 0;
     right:-80px;
@@ -2279,6 +2278,7 @@ resize: none;
 
 
 #banner-small{
-    margin: 0 auto; 
+    margin: -40px auto !important; 
 }
+
         }
