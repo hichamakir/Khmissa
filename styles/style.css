@@ -1677,6 +1677,7 @@ top:5px;
     display: block;
     right:10%;
     }
+ 
     #menu{
         border: 1px solid #56ab2f;
         background-color: rgb(255, 255, 255,0.8);
@@ -1755,7 +1756,6 @@ top:5px;
     display: none;
     }
     
-   
     
     #welcome-head{
         margin:200px auto 0;
@@ -2278,4 +2278,7 @@ resize: none;
 
 
 
+#banner-small{
+    margin: 0 auto; 
+}
         }
