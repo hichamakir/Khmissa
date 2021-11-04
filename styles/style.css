@@ -1340,7 +1340,7 @@ height: 100vh;
     width: fit-content;
     color:white;
     padding:15px 40px;
-    margin:-5px 0 0 100px;
+    margin:-150px 0 0 100px;
     font-size: 30px;
     text-align: center;
 }
@@ -1359,11 +1359,7 @@ height: 100vh;
         left: 60px;
 }
 
-#container-avis{
-    position: relative;
-    margin:550px auto 0;
 
-}
 
 
 #container-box-avis img{
@@ -2238,7 +2234,11 @@ margin: auto;
 #girl-side{
  display: none;
 }
+#container-avis{
+    position: relative;
+    margin:550px auto 0;
 
+}
 #rate-1{
     position: relative;
     height: 30px;
