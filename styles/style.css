@@ -34,10 +34,10 @@ margin-top: 120px;
     width:94vw;
     padding: 5px;
     margin: 0 auto;
-    height: 40px;
+    height: 50px;
     display: grid;
  
-    display: grid;
+
   grid-template-columns: repeat(8,1fr);
     grid-template-areas:
       "logo   search search   icons icons . . price ";
@@ -172,7 +172,7 @@ border-radius: 40px;
     justify-content: center;
     border-top:#2c760a solid 2px;
     border-bottom:#2c760a solid 2px;
-
+    font-size: 18px;
 }
 #welcome-head img{
 margin:0 20px;
@@ -190,69 +190,28 @@ height: 60px;
     width: 80%;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
-    margin:10px auto  100px;
+    justify-content: space-between;
+    margin:10px auto  40px;
 }
 
 .box-cat{
-width:170px;
-height:200px;
-background-color: #59b359;
+width:50vw;
+
+min-width: 200px;
+height:45vh;
 border-radius: 10px;
-border: solid 2px #058a27 ;
+margin:0 30px 30px;
 position: relative;
-
+cursor: pointer;
 
 }
-#box-reclame{
-    background-color: #1478e2;
-border: solid 2px #0a53a0 ;
-}
-#box-market-bg{
-background-image: url(../pictures/khmissa.png);
-background-position: center;
-background-size: cover;
-width:250px;
-height:250px;
-position: absolute;
-top:-20px;
-left:-40px;
-}
-#box-pro{
-    background-color: #b54486;
-    border: solid 2px #831d6f ;
-}
-
-
-
-#box-reclame-bg{
-    background-image: url(../pictures/reclame.png);
-    background-position: center;
-    background-size: cover;
-    width:250px;
-    height:250px;
-    position: absolute;
-    top:-20px;
-    left:-40px;
-    }
-    #box-pro-bg{
-        background-image: url(../pictures/khmissapro.png);
-        background-position: center;
-        background-size: cover;
-        width:250px;
-        height:250px;
-        position: absolute;
-        top:-20px;
-        left:-40px;
-        text-align: center;
-
-        }
 .khmissamarket-cat{
     cursor: pointer;
-    width:110px;
+    width:120%;
+    height:120%;
     position: absolute;
-    top:190px;
-    left:50px;
+    top:-20px;
+    left:-10px;
 }
     
 
@@ -266,7 +225,6 @@ justify-content: center;
 border-top: #2c760a solid 10px;
 padding:30px 0 0 0 ;
 position: relative;
-margin:150px 0 0 0;
 }
 
 #container-bottom-home img{
@@ -500,6 +458,9 @@ margin:50px auto;
     margin:20px auto;
     position: relative;
 
+}
+#carouselExampleControls{
+    display: none;
 }
 .content-offre{
     height: 300px;
@@ -1647,9 +1608,9 @@ top:10px;
         background: var(   --main-gl-background);
         box-shadow: #56ab2f 0 0 20px -1px;
         width: 100vw;
-        padding: 5px;
+        padding: 0;
         margin: 0 auto;
-        height: 40px;
+        height: 45px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1775,7 +1736,6 @@ top:10px;
         bottom:0;
         background:rgb(18, 167, 18,0.5);
         z-index: 11111;
-        padding:25%;
     }
     #search-box-1{
        outline: none;
@@ -1826,15 +1786,13 @@ top:10px;
         font-size:25px;
     
     }
-    
+    #carouselExampleControls{
+        display: block;
+    }
     
     #conatiner-khmissa-cat{
-        display: block;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-        justify-content: space-around;
-        margin:10px auto  10%;
+        display: none;
+
     }
     
     .box-cat{
