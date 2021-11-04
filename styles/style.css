@@ -2125,7 +2125,7 @@ top:5px;
    }
    #container-tous-prod-bottom{
     position: relative;
-    width: 400px;
+    width: 100%;
     height: fit-content;
     background-color: transparent;
     border-radius: 0px;
