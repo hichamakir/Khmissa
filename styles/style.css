@@ -1461,7 +1461,7 @@ padding:5px;
     background-color:#56ab2f;
     background-image:  linear-gradient(to right, #a8e063, #56ab2f);
     width: 90%;
-    height: 180px;
+    height: fit-content;
     color:white;
     border-radius: 20px 20px 0 0 ;
     padding: 20px;
@@ -1487,7 +1487,7 @@ font-size: 14px;
 #footer-container #playstore{
     
     position: absolute;
-    top: 100px;
+    bottom: 10%;
 }
 
 #container-bottom{
@@ -1499,8 +1499,9 @@ font-size: 14px;
 
 #handleft-bottom{
 position: absolute;
-top:-50px;
-height: 290px;
+top:-20px;
+left: 0;
+width: 20%;
 transform: rotate(-0.06turn);
 
 }
@@ -2012,7 +2013,6 @@ top:5px;
             box-sizing: border-box;
             color:white;
             border-radius:  0 0 ;
-            padding: 20px 0 180px;
             position: relative;
             overflow: hidden;
         }
@@ -2020,17 +2020,19 @@ top:5px;
             display: none;
         }
         #footer-container #playstore{
-        
+            margin:20px auto;
+            display: grid;
+            grid-template-columns: 1fr ;
             position: absolute;
-            top: 80%;
-            left:-50%;
-            right:-50%;
+            bottom: 0%;
+            right:0%;
+            grid-gap: 20px;
+            
         }
         #footer-container #cart{
             position: absolute;
-            top: 90%;
-            left:-50%;
-            right:-50%;
+            bottom: 0%;
+            left:0%;
             }
         
         
@@ -2236,12 +2238,13 @@ margin: auto;
 }
 
 #rate-1{
-    float: center;
+    position: relative;
     height: 30px;
-    margin:0px auto;
+    margin:0px auto 10px;
     padding: 2px 15px;
     background-color: #058a27;
     border-radius: 20px;
+    z-index: 1111111111111111111;
 }
 
 #avis-box{
