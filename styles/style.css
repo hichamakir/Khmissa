@@ -1722,11 +1722,14 @@ top:5px;
     
     #search-pop-up{
         display: none;
-        position: absolute;
+        position: fixed;
         right:0;
         left:0;
         top:0;
         bottom:0;
+
+        height: fit-content;
+        width: 100%;
         background:rgb(18, 167, 18,0.5);
         z-index: 11111;
     }
@@ -2236,7 +2239,7 @@ margin: auto;
     float: center;
     height: 30px;
     margin:0px auto;
-    padding: 5px 15px;
+    padding: 2px 15px;
     background-color: #058a27;
     border-radius: 20px;
 }
