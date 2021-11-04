@@ -2024,7 +2024,7 @@ top:5px;
             display: grid;
             grid-template-columns: 1fr ;
             position: absolute;
-            bottom: 0%;
+            bottom: 20%;
             right:0%;
             grid-gap: 20px;
             
@@ -2118,7 +2118,7 @@ top:5px;
     outline: solid 1px #14ce42 ;
     border: solid 5px white;
     background-color: white;
-    width: 70%;
+    width: 60%;
     font-weight: bold;
     font-size: 18px;
     height: 40px;
