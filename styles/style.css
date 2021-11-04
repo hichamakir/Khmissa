@@ -101,8 +101,8 @@ left:50px;
 }
 #search-icon{
 position: absolute;
-top:3px;
-right:5px;
+top:1.2px;
+right:10px;
 cursor: pointer;
 grid-area: searchicon;
 }
@@ -275,7 +275,9 @@ font-size: 18px;
     }
 
 /*-----------------------------PAGE 2---------------------------*/
-
+#container-catalog #welcome-head{
+margin:200px auto 0;
+}
 #container-catalog{
 position: relative;
 width: 100%;
@@ -468,6 +470,13 @@ z-index: 11111;
 #container-offre{
     margin:10px auto;
 }
+#container-offre #welcome-head{
+    margin:200px auto 0;
+    }
+    #container-cata-digitale #welcome-head{
+        margin:200px auto ;
+        }
+  
 #carouselExampleControls{
     display: none;
 }
@@ -1352,12 +1361,10 @@ height: 100vh;
 
 #container-avis{
     position: relative;
-    margin:500px auto 0;
+    margin:550px auto 0;
 
 }
-#container-avis #welcome-head{
-margin:0 auto;
-}
+
 
 #container-box-avis img{
     height: 100%;
@@ -1757,7 +1764,6 @@ top:5px;
     
     
     #welcome-head{
-        margin:200px auto 0;
         background-color: transparent;
         background-image: none;
         box-shadow: none;
@@ -2197,12 +2203,9 @@ height: 450px;
 
     }
 
-    #container-avis{
-        position: relative;
-        margin:10px auto 0;
-    
-    }
+ 
     #container-avis #welcome-head{
+
     margin:0 auto;
     }
 #container-box-avis{
@@ -2221,6 +2224,7 @@ text-align: center;
 }
 #container-avis #welcome-head{
     z-index: 111111;
+    margin:200px auto 0;
 
 }
 #container-rate{
