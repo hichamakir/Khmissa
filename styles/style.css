@@ -1358,13 +1358,12 @@ height: 100vh;
 #container-avis #welcome-head{
 margin:0 auto;
 }
-#grid-box{
-}
+
 #container-box-avis img{
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 80%;
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     right:-80px;
 }
 #container-box-avis{
@@ -1487,7 +1486,7 @@ font-size: 14px;
 #footer-container #playstore{
     
     position: absolute;
-    bottom: 50px
+    bottom: 0px;
 }
 
 #container-bottom{
@@ -2026,7 +2025,7 @@ top:5px;
             position: absolute;
             bottom: 20%;
             right:0%;
-            grid-gap: 20px;
+            grid-gap: 5px;
             
         }
         #footer-container #cart{
