@@ -424,7 +424,7 @@ container-catalog #bottom-box-home{
     width:90%;
     height: 40px;
     background-color: #3b9746;
-    margin:0px auto 0;   
+    margin:-50px auto 0;   
     border-radius: 20px 20px 0 0 ;
     text-align: center;
     position: relative;
@@ -1938,7 +1938,7 @@ top:8px;
             border-radius: 0;
             
             padding:20px 30px;
-            margin:20% auto;
+            margin:20px auto;
             position: relative;
            text-align: center;  
             top: 0%; 
@@ -1971,7 +1971,7 @@ top:8px;
         #container-box-catalog{
         display: flex;
         flex-direction: column;
-        margin:-200px auto;
+        margin:-250px auto;
         padding: 20px;
         width: 80%;
         }
@@ -2186,7 +2186,7 @@ top:8px;
 
 #container-cata-digitale{
     position: relative;
-    margin:0 auto 0;
+    margin:-50px auto 0;
     width: 100%;
     height: 100vh;
     display: grid;
