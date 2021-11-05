@@ -1302,7 +1302,7 @@ cursor: pointer;
     animation-delay: 4s;
 }
 /* Base Styling */
-.container {
+#backslider .container {
     position: absolute;
     z-index: 1111;
     top:8%;
@@ -1524,6 +1524,17 @@ transform: rotate(-0.06turn);
 
 }
 
+.carousel-caption {
+    position: absolute;
+    right: 0% !important;
+    top: 10px;
+    left: 50% !important;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0e8121 !important;
+    text-align: center;
+}
 /*------------------STARS"Rate"---------------------------------------*/
 
 .rate {
@@ -1596,7 +1607,9 @@ right: 15%;
 top:8px;
 }
    
-
+#container-offre .container{
+    display: none;
+    }
 @media screen and (max-width: 900px) {
   
     header{
@@ -2031,34 +2044,34 @@ top:8px;
             background-color:#56ab2f;
             background-image:  linear-gradient(to right, #a8e063, #56ab2f);
             width: 100vw;
-            height: 100vh;
             box-sizing: border-box;
             color:white;
             border-radius:  0 0 ;
             position: relative;
             overflow: hidden;
+            padding:0 0 150px;
         }
         #handleft-bottom{
             display: none;
         }
         #footer-container #playstore img{
-            width: 90px;
+            width: 140px;
             height: 40px;
         }
         #footer-container #playstore{
-            margin:10px auto;
+            margin:100px auto;
             display: grid;
             grid-template-columns: 1fr ;
             position: absolute;
-            bottom: 0%;
-            right:0%;
+            right:  -50%;
+            left:-50%;
             grid-gap: 5px;
             
         }
         #footer-container #cart{
             position: absolute;
-            bottom: 0%;
-            left:0%;
+            right: -50%;
+            left:-50%;
             }
         
         
@@ -2174,7 +2187,7 @@ top:8px;
         margin:0 auto 0;
         }
     
-.container {
+        #backslider .container {
     position: relative;
     z-index: 1111;
     top:auto;
@@ -2312,5 +2325,13 @@ resize: none;
 #banner-small{
     margin: -40px auto !important; 
 }
+#container-slider-offre{
+display: none;
+}
+#container-offre .container{
+    display: block;
+
+}
+
 
         }
