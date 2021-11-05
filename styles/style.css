@@ -2360,4 +2360,10 @@ display: block;
 
 }
 
-        }
+    #bottom-content-offre{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    margin:5px auto -30px;
+    
+    }    }
