@@ -1338,8 +1338,8 @@ display: flex;
     
     .carousel-control-next-icon, .carousel-control-prev-icon {
         /* Use to adjust size of icons */
-        width: 80px !important;
-        height: 80px !important;
+        width: 50px !important;
+        height: 50px !important;
     }
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #container-cata-digitale{
