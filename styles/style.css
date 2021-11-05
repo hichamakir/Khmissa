@@ -1654,8 +1654,10 @@ top:8px;
     }
     #logo-container{
         grid-area:logo;
-        margin: auto  auto auto 20%;
-    }
+        position: absolute;
+        left: -50%;
+        right: -50%;
+        }
     #container-search{
         position: relative;
         grid-area:search;
@@ -1696,7 +1698,8 @@ top:8px;
     display: none;
     }
     #logo-icon{
-        width: 80%;
+        width: 100%;
+        height: 50px;
     }
     #menu-icon{
         display: block;
@@ -1977,7 +1980,7 @@ top:8px;
         #container-box-catalog{
         display: flex;
         flex-direction: column;
-        margin:-280px auto;
+        margin:-300px auto;
         padding: 20px;
         width: 80%;
         }
