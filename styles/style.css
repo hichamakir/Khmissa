@@ -2096,7 +2096,7 @@ top:8px;
     border:2px solid #058a27;
     border-radius: 20px;
     width: 80%;
-    margin:50px auto;
+    margin:80px auto 20px;
     position: relative;
             text-align: center;
             }
@@ -2234,7 +2234,7 @@ height: 450px;
         width: fit-content;
         color:white;
         padding:10px;
-        margin: auto;
+        margin:20px auto;
         font-size: 18px;
         text-align: center;
     }
