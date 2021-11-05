@@ -1608,8 +1608,7 @@ display: none;
 }
 #search-icon-2{
     display: none;
-    width:30px;
-    height: 30px;
+  
 cursor: pointer;
 position: absolute;
 right: 15%;
@@ -1655,7 +1654,7 @@ top:8px;
     }
     #logo-container{
         grid-area:logo;
-        margin: auto;
+        margin: auto  0 0 25%;
     }
     #container-search{
         position: relative;
@@ -1678,17 +1677,16 @@ top:8px;
     }
     #price-box{
         grid-area:price;
-        background-color:white;
+        background-color:transparent;
         border-radius: 20px;
-        height: 32px;
-        width: 32px;
+        box-shadow: none;
         margin:6px 5vw 0 auto;
         text-align: center;
     order:4;
     }
     #price-icon{
-        height: 90%;
-        width: 90%;
+        right:0;
+        left:initial;
     }
     #price-dh{
     display: none;
@@ -1697,8 +1695,8 @@ top:8px;
         display: block;
         margin: auto 3px;
         cursor: pointer;
-        width: 35px;
-        height:35px;
+        width: 30px;
+        height:30px;
 
     }
     
@@ -1972,7 +1970,7 @@ top:8px;
         #container-box-catalog{
         display: flex;
         flex-direction: column;
-        margin:-250px auto;
+        margin:-280px auto;
         padding: 20px;
         width: 80%;
         }
