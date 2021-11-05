@@ -1654,7 +1654,7 @@ top:8px;
     }
     #logo-container{
         grid-area:logo;
-        margin: auto  auto auto 22%;
+        margin: auto  auto auto 20%;
     }
     #container-search{
         position: relative;
