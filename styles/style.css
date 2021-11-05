@@ -2108,12 +2108,12 @@ top:8px;
    }
    #text-container-offre #price-offre{
     width:90%;
-    height: 100px;
+    height: 80px;
     }
    .content-offre img{
        height: 240px;
        width: 200px;
-       margin:10px auto;
+       margin:0px auto;
    }
    #container-offre{
     position: relative;
