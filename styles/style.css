@@ -1802,9 +1802,10 @@ top:8px;
     
     
     #welcome-head{
-        background-color: transparent;
-        background-image: none;
-        box-shadow: none;
+        background-color: var(  --main--bg-color);
+        background: var(     --main-gw-background);
+        background: var(   --main-gl-background);
+    
         position: relative;
         display: flex;
         align-items: center;
@@ -1816,12 +1817,12 @@ top:8px;
     }
     #welcome-head img{
     margin:0 20px;
-    width: 40px;
-    height: 60px;
+    width: 30px;
+    height: 40px;
     }
    #welcome-head h1{
-        color:#2c760a;
-        font-size:1.2em;
+    color:white;
+        font-size:20px;
     
     }
     #carouselExampleControls{
