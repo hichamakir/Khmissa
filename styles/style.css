@@ -1695,6 +1695,9 @@ top:8px;
     #price-dh{
     display: none;
     }
+    #logo-icon{
+        width: 80%;
+    }
     #menu-icon{
         display: block;
         margin: auto 3px;
